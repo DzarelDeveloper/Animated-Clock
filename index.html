@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Clock 24h</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock-container">
+        <div class="time-unit hours">
+            <div class="circle-container">
+                <div class="circle-bg"></div>
+                <div class="circle-progress">
+                    <svg>
+                        <circle class="progress-ring" cx="80" cy="80" r="74"></circle>
+                    </svg>
+                </div>
+                <div class="glow"></div>
+                <div class="time-display">
+                    <div class="time-value" id="hours">00</div>
+                    <div class="time-label">Hours</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="time-unit minutes">
+            <div class="circle-container">
+                <div class="circle-bg"></div>
+                <div class="circle-progress">
+                    <svg>
+                        <circle class="progress-ring" cx="80" cy="80" r="74"></circle>
+                    </svg>
+                </div>
+                <div class="glow"></div>
+                <div class="time-display">
+                    <div class="time-value" id="minutes">00</div>
+                    <div class="time-label">Minutes</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="time-unit seconds">
+            <div class="circle-container">
+                <div class="circle-bg"></div>
+                <div class="circle-progress">
+                    <svg>
+                        <circle class="progress-ring" cx="80" cy="80" r="74"></circle>
+                    </svg>
+                </div>
+                <div class="glow"></div>
+                <div class="time-display">
+                    <div class="time-value" id="seconds">00</div>
+                    <div class="time-label">Seconds</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
